@@ -18,7 +18,7 @@ body{
     overflow-x: hidden;
 }
 nav{
-    /* position: relative; */
+    position: fixed;
     top: 0;
     height: 10vh;
     width: 100%;
@@ -106,10 +106,6 @@ section{
     font-size: 5em;
     font-weight: 800;
 }
-/* .info-box h3{
-    font-size: 2em;
-    font-weight: 400;
-} */
 .info-box p{
     opacity: 1;
 }
@@ -117,12 +113,6 @@ section{
     display: flex;
     gap: 1em;
 }
-/* .btn-box:hover{
-    color: black;
-}
-.btn-box a:hover{
-    color: white;
-} */
 .btn-box .btn:nth-of-type(2){
     background-color: black;
     color: var(--background);
@@ -159,7 +149,6 @@ section{
     padding: 0.1em 0;
 }
 .headers{
-    /* background-color: #000; */
     text-align: center;
     font-size: 5em;
     margin: 0.1em 0;
@@ -288,12 +277,11 @@ section{
     position: relative;
     padding: 40px;
     max-width: 600px;
-    transition: 0.25s;
+    transition: 0.1s;
     transition-delay: 0s;
     transform: translateY(40px);
     z-index: 10000;
     opacity: 0;
-    /* color: #fff; */
 }
 .content h2{
     font-size: 2em;
@@ -357,15 +345,6 @@ section{
     gap: 2em;
 }
 
-/* .services-container video,
-.services-container img {
-  width: 100%;
-  height: 300px; 
-  object-fit: contain;
-  border-radius: 10px;
-  background-color: #000; 
-} */
-
 .box{
     border: 2px solid rgba(0, 0, 0, 0.655);
     border-radius: 0.5em;
@@ -416,10 +395,9 @@ section{
     width: 100%;
     height: 450px;
     border: none;
-    border-radius: 0; /* No border, no rounding */
+    border-radius: 0; 
 }
 
-/* Responsive map height */
 @media (max-width: 768px) {
     #location .header {
         font-size: 2.5em;
@@ -428,13 +406,11 @@ section{
         height: 500px;
     }
   #services {
-    margin-top: 8vh;   /* smaller gap */
+    margin-top: 8vh; 
   } 
 }
 
-
 .contact-container{
-    /* background-color: black; */
     height: 10vh;
     display: flex;
     align-items: center;
@@ -646,10 +622,9 @@ footer{
     }
 }
 
-/* Make logo smaller on mobile screens */
 @media (max-width: 500px) {
   .logo {
-    font-size: 1.3em;  /* adjust size until it fits in one line */
+    font-size: 1.3em;
   }
   #menu{
     display: block;
@@ -660,7 +635,7 @@ nav{
 }
 
   .location-container iframe {
-    height: 600px;   /* smaller map so gap is reduced */
+    height: 600px; 
   }
 }
 

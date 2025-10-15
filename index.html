@@ -18,6 +18,10 @@
     <meta property="og:url" content="https://jawaianopvilla.com/">
     <meta name="robots" content="index, follow">
 
+    <!-- Preload critical assets -->
+    <link rel="preload" href="images/img13.jpg" as="image">
+    <link rel="preload" href="style.css" as="style">
+
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
@@ -54,15 +58,14 @@
             <a href="#location">LOCATION</a>
             <a href="#contact">CONTACT</a>
         </ul>
-        <i class='bx bx-menu' id="menu"></i>
+        <i class='bx bx-menu' id="menu" aria-label="Menu"></i>
         <a href="https://wa.me/919664045194" target="_blank" class="btn">Book now</a>
     </nav>
 
     <section id="home">
-        <img src="images/img13.jpg" alt="">
+        <img src="images/img13.jpg" alt="Leopard at Jawai Anop Villa wildlife safari" loading="lazy">
         <div class="info-box">
             <h1>WELCOME TO JAWAI</h1>
-            <!-- <h3><span>Rajasthan</span></h3> -->
             <p>Nestled in the heart of Rajasthan, Jawai is a hidden gem that offers a unique blend of breathtaking
                 landscapes, vibrant wildlife and rich cultural experiences. At Jawai Safaris, we provide you with a
                 unforgettable journey into the wild where nature meets adventure.</p>
@@ -82,7 +85,7 @@
         <h1 class="headers" id="gallery">GALLERY</h1>
         <div class="container">
             <div class="slider">
-                <div class="slides" style="--img: url('images/jipsy1.jpg')">
+                <div class="slides" style="--img: url('images/jipsy1.jpg')" aria-label="Jipsy at Jawai Anop Villa">
                     <div class="content">
                         <h2>JIPSY</h2>
                     </div>
@@ -151,7 +154,6 @@
 
     <section id="services">
         <h1 class="header">SERVICES</h1>
-
         <div class="services-container">
             <div class="box">
                 <h1>LEOPARDS</h1>
@@ -180,7 +182,7 @@
                 <p>Watch the <b>Jawai sunset</b> from granite hills as the sky glows gold. Our <b>evening gypsy
                         rides</b> lead you to scenic spots where nature’s peace and wild beauty unite.</p>
 
-                <img src="images/jipsy2.jpg" height="250px">
+                <img src="images/jipsy2.jpg" height="250px" alt="Sunset safari at Jawai hills" loading="lazy">
             </div>
 
             <div class="box">
@@ -189,7 +191,7 @@
                     one of
                     the largest reservoirs in western Rajasthan.
                 </p>
-                <img src="images/img2.jpg" height="250px">
+                <img src="images/img2.jpg" height="250px" alt="Indian Mugger crocodile at Jawai Dam" loading="lazy">
             </div>
 
 
@@ -198,7 +200,7 @@
                 <p>Jawai is a haven for <b>bird lovers</b>, hosting countless migratory and resident species. Spot
                     eagles, kingfishers, and rare birds near the dam amid <b>nature’s serene melody</b>.</p>
 
-                <img src="images/bird1.jpg" height="250px">
+                <img src="images/bird1.jpg" height="250px" alt="Bird watching at Jawai Dam" loading="lazy">
             </div>
             <div class="box">
                 <h1>FLAMINGOS</h1>
@@ -206,7 +208,7 @@
                     <b>captivating sight</b> for every nature lover.
                 </p>
 
-                <img src="images/bird2.jpg" height="250px">
+                <img src="images/bird2.jpg" height="250px" alt="Flamingos at Jawai Dam" loading="lazy">
             </div>
             <div class="box">
                 <h1>HIGH TEA</h1>
@@ -215,7 +217,7 @@
                     panoramic landscapes. It’s the perfect way to unwind after an adventurous day — <b>where luxury
                         meets
                         wilderness</b>.</p>
-                <img src="images/jipsy3.jpg" height="250px">
+                <img src="images/jipsy3.jpg" height="250px" alt="High tea experience at Jawai hills" loading="lazy">
 
             </div>
         </div>
@@ -265,7 +267,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
