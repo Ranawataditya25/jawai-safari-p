@@ -18,6 +18,9 @@
     <meta property="og:url" content="https://jawaianopvilla.com/">
     <meta name="robots" content="index, follow">
 
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://unpkg.com">
+
     <!-- Preload critical assets -->
     <link rel="preload" href="images/img13.jpg" as="image">
     <link rel="preload" href="style.css" as="style">
@@ -25,16 +28,18 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 
-    <!-- Main favicon -->
-    <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+    <!-- Favicon for browsers -->
+    <link rel="icon" href="https://jawaianopvilla.com/images/favicon-32x32.png" sizes="32x32" type="image/png">
 
-    <!-- Apple & other devices -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <!-- Apple devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jawaianopvilla.com/images/apple-touch-icon.png">
 
-    <!-- Optional (if you have this file) -->
-    <link rel="manifest" href="images/site.webmanifest">
+    <!-- Smaller favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jawaianopvilla.com/images/favicon-16x16.png">
+
+    <!-- Web manifest (optional) -->
+    <link rel="manifest" href="https://jawaianopvilla.com/images/site.webmanifest">
+
     <meta name="google-site-verification" content="NkOElNmBY5vmTx0ssT9fu77i4mgWt2KnZD9kkxK_lTs" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVM8KDDF7T"></script>
@@ -63,7 +68,8 @@
     </nav>
 
     <section id="home">
-        <img src="images/img13.jpg" alt="Leopard at Jawai Anop Villa wildlife safari" loading="lazy">
+        <img src="images/img13.jpg" alt="Leopard at Jawai Anop Villa wildlife safari" loading="lazy" width="100%"
+            height="auto">
         <div class="info-box">
             <h1>WELCOME TO JAWAI</h1>
             <p>Nestled in the heart of Rajasthan, Jawai is a hidden gem that offers a unique blend of breathtaking
@@ -91,7 +97,7 @@
                     </div>
                 </div>
                 <div class="slides">
-                    <video autoplay muted loop playsinline class="gallery-video">
+                    <video autoplay muted loop playsinline class="gallery-video" loading="lazy">
                         <source src="images/leopardVideo.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -105,7 +111,7 @@
                     </div>
                 </div>
                 <div class="slides">
-                    <video autoplay muted loop playsinline class="gallery-video">
+                    <video autoplay muted loop playsinline class="gallery-video" loading="lazy">
                         <source src="images/python.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -161,7 +167,7 @@
                     extraordinary landscape
                     that combines rugged hills, wide jungles and ancient temples.
                 </p>
-                <video src="images/leopardVideo2.mp4" height="250" autoplay muted loop playsinline preload="auto"
+                <video src="images/leopardVideo2.mp4" height="250" loading="lazy" autoplay muted loop playsinline
                     style="border-radius: 10px; width: 100%; object-fit: fill;">
                     Your browser does not support the video tag.
                 </video>
@@ -172,7 +178,7 @@
                     <b>Jawai Dam</b>, embraced by rugged hills and wilderness. Enjoy <b>starlit nights</b>, warm
                     bonfires, and calm moments after a thrilling safari.
                 </p>
-                <video src="images/camping.mp4" height="250" autoplay muted loop playsinline preload="auto"
+                <video src="images/camping.mp4" height="250" loading="lazy" autoplay muted loop playsinline
                     style="border-radius: 10px; width: 100%; object-fit:fill;">
                     Your browser does not support the video tag.
                 </video>
@@ -182,7 +188,8 @@
                 <p>Watch the <b>Jawai sunset</b> from granite hills as the sky glows gold. Our <b>evening gypsy
                         rides</b> lead you to scenic spots where nature’s peace and wild beauty unite.</p>
 
-                <img src="images/jipsy2.jpg" height="250px" alt="Sunset safari at Jawai hills" loading="lazy">
+                <img src="images/jipsy2.jpg" width="100%" height="250px" alt="Sunset safari at Jawai hills"
+                    loading="lazy">
             </div>
 
             <div class="box">
@@ -191,7 +198,8 @@
                     one of
                     the largest reservoirs in western Rajasthan.
                 </p>
-                <img src="images/img2.jpg" height="250px" alt="Indian Mugger crocodile at Jawai Dam" loading="lazy">
+                <img src="images/img2.jpg" width="100%" height="250px" alt="Indian Mugger crocodile at Jawai Dam"
+                    loading="lazy">
             </div>
 
 
@@ -200,7 +208,7 @@
                 <p>Jawai is a haven for <b>bird lovers</b>, hosting countless migratory and resident species. Spot
                     eagles, kingfishers, and rare birds near the dam amid <b>nature’s serene melody</b>.</p>
 
-                <img src="images/bird1.jpg" height="250px" alt="Bird watching at Jawai Dam" loading="lazy">
+                <img src="images/bird1.jpg" width="100%" height="250px" alt="Bird watching at Jawai Dam" loading="lazy">
             </div>
             <div class="box">
                 <h1>FLAMINGOS</h1>
@@ -208,7 +216,7 @@
                     <b>captivating sight</b> for every nature lover.
                 </p>
 
-                <img src="images/bird2.jpg" height="250px" alt="Flamingos at Jawai Dam" loading="lazy">
+                <img src="images/bird2.jpg" width="100%" height="250px" alt="Flamingos at Jawai Dam" loading="lazy">
             </div>
             <div class="box">
                 <h1>HIGH TEA</h1>
@@ -217,7 +225,8 @@
                     panoramic landscapes. It’s the perfect way to unwind after an adventurous day — <b>where luxury
                         meets
                         wilderness</b>.</p>
-                <img src="images/jipsy3.jpg" height="250px" alt="High tea experience at Jawai hills" loading="lazy">
+                <img src="images/jipsy3.jpg" width="100%" height="250px" alt="High tea experience at Jawai hills"
+                    loading="lazy">
 
             </div>
         </div>
