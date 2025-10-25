@@ -81,7 +81,7 @@ faqItems.forEach((item) => {
 });
 
 // Show 5 FAQs initially
-let visibleCount = 5;
+let visibleCount = 10;
 faqItems.forEach((item, index) => {
   if (index >= visibleCount) item.classList.add("hidden");
 });
