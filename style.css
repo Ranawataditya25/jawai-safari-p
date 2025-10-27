@@ -1030,7 +1030,7 @@ nav{
     align-items: center;
     justify-content: center;
     z-index: 10000;
-    animation: fadeOut 0.8s ease 0.5s forwards;
+    animation: fadeOut 0.8s ease 3s forwards;
 }
 
 .splash-content {
